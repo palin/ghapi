@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ghapi_dev
+  pool: 5
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ghapi_test
+  pool: 5
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: ghapi_staging
+  pool: 5
+smoke:
+  adapter: postgresql
+  encoding: unicode
+  database: ghapi_smoke
+  pool: 5
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ghapi_production
+  pool: 5
